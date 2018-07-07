@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reg_student">
+
+    <EditText
+        android:id="@+id/regstu_name"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="請輸入您的真實姓名"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/regstu_id"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="請輸入您的學號"
+        android:inputType="number"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/regstu_phone"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="請輸入您的手機號碼"
+        android:inputType="phone"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/regstu_password"
+        android:layout_width="390dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:hint="請輸入密碼(8位)"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="233dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_regstu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="完成註冊"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="389dp" />
+        <!--tools:layout_editor_absoluteY="348dp" -->
+
+</android.support.constraint.ConstraintLayout>

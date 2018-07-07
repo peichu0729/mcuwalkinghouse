@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <Button
+        android:id="@+id/cho_stu"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:text="學生"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="245dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cho_have"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已有帳號?"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/cho_landlord"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="房東"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cho_login"
+        android:layout_width="55dp"
+        android:layout_height="37dp"
+        android:text="登入"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="306dp" />
+</android.support.constraint.ConstraintLayout>
