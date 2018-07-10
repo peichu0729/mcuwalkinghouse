@@ -75,7 +75,7 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="280dp"
-        android:layout_height="36dp"
+        android:layout_height="33dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -92,15 +92,14 @@
         android:id="@+id/btn_item"
         android:layout_width="92dp"
         android:layout_height="37dp"
-        android:layout_marginBottom="257dp"
         android:layout_marginEnd="193dp"
         android:layout_marginRight="193dp"
+        android:layout_marginTop="216dp"
+        android:onClick="gotoitem"
         android:text="注意事項"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/yes_radioButton"
-        app:layout_constraintTop_toBottomOf="@+id/reglord_name"
-        app:layout_constraintVertical_bias="0.964" />
+        app:layout_constraintTop_toBottomOf="@+id/reglord_name" />
 
 </android.support.constraint.ConstraintLayout>

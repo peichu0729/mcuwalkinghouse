@@ -15,23 +15,21 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
-        Button cho_stu=findViewById(R.id.cho_stu);
-        cho_stu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent (Register.this,reg_student.class);
-                startActivity(intent);
-            }
-        });
-
-        Button buton=findViewById(R.id.button);
-        cho_stu.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent (Register.this,MainActivity.class);
-                finish();
-            }
-        });
     }
-}
+       public void gobackmain(View v) {
+       finish();
+    }
+    public void gotoreg_stu(View v){
+        Intent it=new Intent(this,reg_student.class);
+        startActivity(it);
+    }
+    public void gotoreg_land(View v){
+        Intent it=new Intent(this,reg_landlord.class);
+        startActivity(it);
+    }
+    public void reg_login(View v){
+        Intent it=new Intent(this,Login.class);
+        startActivity(it);
+    }
+    }
+
