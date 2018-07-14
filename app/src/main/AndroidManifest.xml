@@ -28,7 +28,13 @@
         <activity android:name=".reg_student" />
         <activity android:name=".reg_landlord" />
         <activity android:name=".Find_house" />
-        <activity android:name=".item"></activity>
+        <activity android:name=".item" />
+        <activity android:name=".Only_landlord" />
+        <activity android:name=".only_ld_manage" />
+        <activity
+            android:name=".only_ld_upload"
+            android:label="@string/title_activity_only_ld_upload" />
+        <activity android:name=".only_ld_picture"></activity>
     </application>
 
 </manifest>

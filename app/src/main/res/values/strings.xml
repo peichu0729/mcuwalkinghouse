@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">mcu walking house</string>
-    <string name="title_activity_login">Sign in</string>
-
+    <string name="title_activity_login">登入</string>
+    <string name="title_activity_register">註冊</string>
+    <string name="title_activity_reg_student">學生註冊</string>
+    <string name="title_activity_reg_landlord">房東註冊</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
@@ -14,4 +16,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_only_ld_upload">only_ld_upload</string>
 </resources>

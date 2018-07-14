@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="125dp"
+        android:layout_width="123dp"
         android:layout_height="24dp"
         android:text="mcu walking house"
         app:layout_constraintBottom_toBottomOf="parent"
