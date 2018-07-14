@@ -33,7 +33,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:text="1.本資屋系統為免費服務，提供本校學生多管道獲取資訊，也請房東善盡照顧本校學生責任，如有下列情況:"
+        android:text="1.本租屋系統為免費服務，提供本校學生多管道獲取資訊，也請房東善盡照顧本校學生責任，如有下列情況:"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -47,7 +47,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:text="*經學生反映刊登資料與實際內容不符，或租屋處不。適合居住"
+        android:text="*經學生反映刊登資料與實際內容不符，或租屋處不適合居住"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
